@@ -1,10 +1,10 @@
 syntax = "proto3";
 
-package ethanwickstrom;
+package user;
 
 import "google/protobuf/timestamp.proto";
 
-option go_package = "github.com/ethan-wickstrom/ethan-wickstrom-api";
+option go_package = "github.com/ethan-wickstrom/personal_website/api/proto/user";
 
 service UserService {
     // Authentication
